@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x
 app.post('/order', handlePostOrder);
 
 app.listen(port, function() {
-    console.log(`TimeSheet Application started on port ${port}`);
+    console.log(`Point Of Sale Service started on port ${port}.`);
 });
 
 function handlePostOrder(request, response) {
